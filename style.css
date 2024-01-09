@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+h1 {
+  text-align: left;
+  margin-left: 50px;
+}
+
+p {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 75%;
+}
+h2 {
+  margin-right: 30%;
+  text-align: end;
+}
+ul {
+  padding: 0 0 0 20px;
+}
+li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+li > a {
+  color: inherit;
+  text-decoration: none;
+  color: rgb(68, 139, 116);
+}
+li > a:hover {
+  text-decoration: underline;
+  color: black;
+  transition: linear color 200ms;
+}
+.sticky {
+  position: sticky;
+  top: 10%;
+  left: 85%;
+  background-color: #faebd7;
+  width: 200px;
+  padding: 16px;
+}
+.card-container {
+  background-color: #faebd7;
+  display: flex;
+  width: 360px;
+  height: 519px;
+  border-radius: 10px;
+  margin: 100px 10px;
+  position: sticky;
+  box-shadow: 5px 5px 20px gray, 5px 5px 20px gray;
+  bottom: 10%;
+  left: 78%;
+}
+.card-container::after {
+  content: "";
+  background-color: rgb(42, 14, 94);
+  width: 360px;
+  height: 173px;
+  border-radius: 10px 10px 0 0;
+}
+.card-container::before {
+  content: "";
+  border-radius: 50%;
+  width: 104px;
+  height: 104px;
+  background-color: #faebd7;
+  position: absolute;
+  left: 128px;
+  top: 123px;
+}
+
+img {
+  position: absolute;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  left: 130px;
+  top: 125px;
+}
+.head3 h3 {
+  position: absolute;
+  width: 90px;
+  top: 233px;
+  left: 135px;
+}
+.head4 h4 {
+  position: absolute;
+  width: 142px;
+  top: 275px;
+  left: 109px;
+  color: rgb(173, 116, 226);
+}
+.info p {
+  position: absolute;
+  width: 260px;
+  left: 50px;
+  top: 333px;
+  text-align: center;
+  color: rgb(97, 95, 95);
+}
+.click a {
+  position: absolute;
+  width: 100px;
+  left: 130px;
+  top: 454px;
+  background-color: rgb(89, 12, 160);
+  color: white;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 15px;
+}
